@@ -31,3 +31,11 @@ h1 {
   font-size: 3rem;
   padding: 4% 5% 1% 5%;
 }
+
+.color {
+  color: #36622b;
+  font-family: 'McLaren', cursive;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 5%;
+}
