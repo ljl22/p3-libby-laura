@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header, nav, aside, article, footer, section, main, figure, figcaption {
+	display:block;
+}
+
+* {
+ 	margin:0;
+	border:0;
+	padding:0;
+	vertical-align: baseline;
+}
+
+/* Project Color Palette:
+moss green: #729d39
+forest green: #36622b
+lime green: #c6e377
+beige/yellow: #FBFAD3
+
+Font:
+font-family: 'McLaren', cursive;
+*/
+
+h1, h2, h3, h4, p {
+  font-family: 'McLaren', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: #729d39;
+  font-size: 3rem;
+  padding: 4% 5% 1% 5%;
+}
