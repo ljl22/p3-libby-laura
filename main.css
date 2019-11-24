@@ -56,7 +56,6 @@ li {
 	display: inline-block;
 	text-align: center;
 	margin: 3%;
-
 	border: 1px solid #36622b;
 }
 
@@ -65,8 +64,15 @@ ul li p {
 	margin: 0;
 	font-size: 1.25rem;
 	color: #36622b;
+	background-color: #FBFAD3;
+	transition: background-color 1000ms;
 }
 
 .lime {
 	background-color: #c6e377;
+	transition: background-color 1000ms;
+}
+
+.hide {
+	display: none;
 }
