@@ -2,9 +2,16 @@
 //global variables
 const myBoxes = document.getElementsByClassName('block');
 
-// our function
+// our function - local scope
 function loopThrough() {
-  console.log(this.textContent.length);
+
+  const changeColor = () => this.classList.toggle('beige');
+
+  for(let i = 0; i < this.textContent.length; i++) {
+    changeColor();
+  };
+
+
 };
 
 
