@@ -7,6 +7,7 @@ Outside resources used:
 2. CSS Transition - width changes: https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition1
 3. HTML arrows and symbols: https://www.toptal.com/designers/htmlarrows/arrows/
 4. List of Irish proverbs: https://irisharoundtheworld.com/irish-proverbs/
+5. Provinces of Ireland: https://en.m.wikipedia.org/wiki/Provinces_of_Ireland
 
 List of Irish proverbs (fortunes) used:
 1.	A drink precedes a story.
