@@ -3,8 +3,10 @@
 const myBoxes = document.getElementsByClassName('block');
 const layerA =  document.getElementById('step-a');
 
-const myBoxesLayerB  = document.getElementsByClassName('block-b');
+const myBoxesLayerB = document.getElementsByClassName('blockb');
 const layerB =  document.getElementById('step-b');
+const myNumber = myBoxesLayerB.innerHTML;
+console.log(Number(myNumber));
 
 // our function - local scope
 function loopThrough() {
@@ -19,7 +21,11 @@ function loopThrough() {
 
 
 //loop through for number string****************************************
-//function loopThroughTwo() {
+function loopThroughNumber() {
+  const changeColor = () => myBoxesLayerB.classList.toggle('lime')
+
+};
+
 
 //  const changeColor = () => {
 //    this.classList.toggle('lime');
@@ -27,7 +33,6 @@ function loopThrough() {
 //  for ( let i = 0; i < this.textContent.length * 2; i++) {
 //    setTimeout(changeColor, i * 1000);
 //  }
-// };
 
 function changeLayer () {
   const swap = () => {
@@ -40,7 +45,7 @@ function changeLayer () {
 };
 
 //function for number string***************************************
-//function changeLayerTwo () {
+//function changeLayerNumber () {
 //  const swap = () => {
 //    layerA.classList.add('hide');
 //    layerB.classList.remove('hide');
