@@ -5,7 +5,7 @@ const layerA =  document.getElementById('step-a');
 
 const myBoxesLayerB = document.getElementsByClassName('blockb'); //I think there's an issue pulling here
 const layerB =  document.getElementById('step-b');
-const myNumber = myBoxesLayerB.innerHTML;
+const myNumber = myBoxesLayerB.innerHTML; //not working correctly
 
 
 // our function - local scope
@@ -28,7 +28,6 @@ function loopThroughNumber() {
     setTimeout(changeColorTwo, i * 1000);
   }
 }
-
 loopThroughNumber();
 
 //function for layer two reveal
