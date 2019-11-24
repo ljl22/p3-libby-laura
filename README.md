@@ -8,6 +8,7 @@ Outside resources used:
 3. HTML arrows and symbols: https://www.toptal.com/designers/htmlarrows/arrows/
 4. List of Irish proverbs: https://irisharoundtheworld.com/irish-proverbs/
 5. Provinces of Ireland: https://en.m.wikipedia.org/wiki/Provinces_of_Ireland
+6. Javascript Number() function: https://www.w3schools.com/jsref/jsref_number.asp
 
 List of Irish proverbs (fortunes) used:
 1.	A drink precedes a story.
