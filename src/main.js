@@ -18,7 +18,7 @@ function loopThrough() {
 };
 
 
-//loop through for number string
+//loop through for number string****************************************
 //function loopThroughTwo() {
 
 //  const changeColor = () => {
@@ -39,7 +39,7 @@ function changeLayer () {
 
 };
 
-//function for number string
+//function for number string***************************************
 //function changeLayerTwo () {
 //  const swap = () => {
 //    layerA.classList.add('hide');

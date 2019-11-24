@@ -39,7 +39,7 @@ h1 {
   padding: 4% 5% 1% 5%;
 }
 
-h2{
+h2 {
 	text-align: center;
   color: #729d39;
   font-size: 2rem;
@@ -60,13 +60,13 @@ li {
 	display: inline-block;
 	text-align: center;
 	margin: 3%;
-	border: 1px solid #36622b;
+	border: 3px solid #36622b;
 }
 
 ul li p {
 	padding: 10%;
 	margin: 0;
-	font-size: 1.25rem;
+	font-size: 3rem;
 	color: #36622b;
 	background-color: #FBFAD3;
 	transition: background-color 1000ms;
