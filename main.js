@@ -1,10 +1,10 @@
 //make something flash the the number of times that the name of the color is long
 //global variables
-const myBoxes = document.getElementsByClassName('color');
+const myBoxes = document.getElementsByClassName('block');
 
 // our function
 function loopThrough() {
-
+  console.log(this.textContent.length);
 };
 
 

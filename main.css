@@ -40,10 +40,30 @@ h2{
 
 }
 
-.color {
+/*.block {
   color: #36622b;
   font-family: 'McLaren', cursive;
   font-size: 1.75rem;
   text-align: center;
   padding: 5%;
+}*/
+
+li {
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	margin: 1%;
+	margin-top: 5%;
+	border: 1px solid #36622b;
+}
+
+ul li p {
+	padding: 10%;
+	margin: 0;
+	font-size: 1.25rem;
+	color: #36622b;
+}
+
+.beige {
+	background-color: #FBFAD3;
 }
