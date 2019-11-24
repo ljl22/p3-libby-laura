@@ -53,7 +53,9 @@ li {
 	display: inline-block;
 	text-align: center;
 	margin: 1%;
-	margin-top: 5%;
+	margin-top: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	border: 1px solid #36622b;
 }
 
@@ -64,6 +66,6 @@ ul li p {
 	color: #36622b;
 }
 
-.beige {
-	background-color: #FBFAD3;
+.lime {
+	background-color: #c6e377;
 }

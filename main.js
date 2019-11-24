@@ -5,10 +5,10 @@ const myBoxes = document.getElementsByClassName('block');
 // our function - local scope
 function loopThrough() {
 
-  const changeColor = () => this.classList.toggle('beige');
+  const changeColor = () => this.classList.toggle('lime');
 
-  for(let i = 0; i < this.textContent.length; i++) {
-    changeColor();
+  for(let i = 0; i < this.textContent.length * 2; i++) {
+    setTimeout(changeColor, i * 1000);
   };
 
 
