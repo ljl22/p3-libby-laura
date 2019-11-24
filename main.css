@@ -20,6 +20,9 @@ beige/yellow: #FBFAD3
 Font:
 font-family: 'McLaren', cursive;
 */
+ .content {
+	 background-color: #FBFAD3;
+ }
 
 h1, h2, h3, h4, p {
   font-family: 'McLaren', cursive;
@@ -49,13 +52,11 @@ h2{
 }*/
 
 li {
-	width: 45%;
+	width: 40%;
 	display: inline-block;
 	text-align: center;
-	margin: 1%;
-	margin-top: 2%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	margin: 3%;
+
 	border: 1px solid #36622b;
 }
 
