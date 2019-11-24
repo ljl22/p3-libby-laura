@@ -20,6 +20,10 @@ beige/yellow: #FBFAD3
 Font:
 font-family: 'McLaren', cursive;
 */
+
+html {
+	background-color: #FBFAD3;
+}
  .content {
 	 background-color: #FBFAD3;
  }
