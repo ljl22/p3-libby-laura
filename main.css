@@ -77,6 +77,11 @@ ul li p {
 	transition: background-color 1000ms;
 }
 
+.forest {
+	background-color: #36622b;
+	transition: background-color 1000ms;
+}
+
 .hide {
 	display: none;
 }
