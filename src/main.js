@@ -3,8 +3,13 @@
 const myBoxes = document.getElementsByClassName('block');
 const layerA =  document.getElementById('step-a');
 
-const myBoxesLayerB = document.getElementsByClassName('blockb'); //I think there's an issue pulling here
+const myBoxesLayerB = document.getElementsByClassName('blockb');
 const layerB =  document.getElementById('step-b');
+
+//fortunes start here
+const irishFortunes = ['A drink precedes a story', 'Youth does not mind where it sets its foot', 'You’ve got to do your own growing, no matter how tall your father was', 'The well-fed does not understand the lean', 'A good laugh is the  best cure', 'Do not take the thatch from your own roof to buy slates for another man’s house', 'There’s no use boiling your cabbage twice', 'A tune is more lasting than the song of the birds, And a word more lasting than the wealth of the world', 'It’s as easy to catch a cold in a King’s castle as in a shepard’s hut', 'Lose an hour in the morning and you’ll be looking for it all day'];
+
+irishFortunes.sort((a, b) => {return 0.5 - Math.random()});
 
 
 // our function - local scope
