@@ -8,10 +8,9 @@ const layerB = document.getElementById('step-b');
 
 const myBoxesLayerC = document.getElementsByClassName('blockc');
 const layerC = document.getElementById('step-c');
-
 //fortunes start here
 const irishFortunes = ['A drink precedes a story', 'Youth does not mind where it sets its foot', 'You’ve got to do your own growing, no matter how tall your father was', 'The well-fed does not understand the lean', 'A good laugh is the  best cure', 'Do not take the thatch from your own roof to buy slates for another man’s house', 'There’s no use boiling your cabbage twice', 'A tune is more lasting than the song of the birds & a word more lasting than the wealth of the world', 'It’s as easy to catch a cold in a King’s castle as in a sheppard’s hut', 'Lose an hour in the morning and you’ll be looking for it all day'];
-//const generatorMessage = document.getElementsByClassName('blockc');
+const fortuneResults = document.getElementById('fortune-results');
 
 
 // our function - local scope
@@ -52,13 +51,16 @@ function loopThroughNumber() {
 }
 loopThroughNumber();
 
-//function for random fortunes******************************************
+//function for random fortunes******************************************this is the issue****
 const randomizeFortunes = () => {
   irishFortunes.sort((a, b) => {return 0.5 - Math.random()});
-  console.log(irishFortunes[0]);
+  const fortuneTextNode = document.createTextNode(irishFortunes[0]);
+  const fortuneParagraph = document.createElement('p');
+  fortuneParagraph.appendChild(fortuneTextNode);
+  fortuneResults.appendChild(fortuneParagraph);
 }
-randomizeFortunes();
-layerC.addEventListener('click', randomizeFortunes);
+
+myBoxesLayerC.addEventListener('click', randomizeFortunes);
 
 // event listener for box change to number
 for (let i = 0; i < myBoxes.length; i++) {
