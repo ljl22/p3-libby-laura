@@ -89,3 +89,12 @@ ul li p {
 .hide2 {
 	display: none;
 }
+
+#fortune-results {
+	padding: 10%;
+	color: #fff;
+	background-color: #36622b;
+	transition: background-color 1000ms;
+	margin: 0;
+	font-size: 1.80rem;
+}
