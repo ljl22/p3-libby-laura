@@ -60,6 +60,8 @@ const randomizeFortunes = () => {
   fortuneResults.appendChild(fortuneParagraph);
 }
 
+myBoxesLayerC.addEventListener('click', randomizeFortunes); // I know this needs to most likely live elsewhere and  not be tied to length of number
+
 
 // event listener for box change to number
 for (let i = 0; i < myBoxes.length; i++) {
@@ -75,5 +77,4 @@ for (let i = 0; i < myBoxes.length; i++) {
 //for second number transition
 for (let i = 0; i < myBoxes.length; i++) {
  myBoxesLayerC[i].addEventListener('click', changeLayerThree);
- myBoxesLayerC.addEventListener('click', randomizeFortunes); // I know this needs to most likely live elsewhere and  not be tied to length of number
 };
