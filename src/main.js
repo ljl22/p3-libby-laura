@@ -51,7 +51,7 @@ function loopThroughNumber() {
 }
 loopThroughNumber();
 
-//function for random fortunes******************************************this is the issue****
+//function for random fortunes*****************should this be within a function?
 const randomizeFortunes = () => {
   irishFortunes.sort((a, b) => {return 0.5 - Math.random()});
   const fortuneTextNode = document.createTextNode(irishFortunes[0]);
@@ -60,6 +60,16 @@ const randomizeFortunes = () => {
   fortuneResults.appendChild(fortuneParagraph);
 }
 
+//function randomResults(){
+//  const randomizeFortunes = () => {
+//    irishFortunes.sort((a, b) => {return 0.5 - Math.random()});
+//    const fortuneTextNode = document.createTextNode(irishFortunes[0]);
+//    const fortuneParagraph = document.createElement('p');
+//    fortuneParagraph.appendChild(fortuneTextNode);
+//    fortuneResults.appendChild(fortuneParagraph);
+//  }
+//}
+// randomResults()
 myBoxesLayerC.addEventListener('click', randomizeFortunes); // I know this needs to most likely live elsewhere and  not be tied to length of number
 
 
