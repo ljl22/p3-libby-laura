@@ -97,4 +97,5 @@ ul li p {
 	transition: background-color 1000ms;
 	margin: 0;
 	font-size: 1.80rem;
+	text-align: center;
 }
