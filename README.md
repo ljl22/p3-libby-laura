@@ -1,6 +1,8 @@
 # p3-libby-laura
 
-Issues experienced:
+Issues experienced: 
+
+I found the task of getting the loop to correctly make the number flash the value of the number chosen to be difficult (step 2), as well as the code that allows the fortune to reveal itself (step 3) via the final choice the user makes to be challenging. However, the resources provided in our last few modules and with Blakeley's help, the final product works correctly and doesn't produce any console errors. 
 
 Outside resources used:
 1. CSS Transition: https://css-tricks.com/almanac/properties/t/transition/
